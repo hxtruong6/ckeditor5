@@ -1,0 +1,880 @@
+repo_name: hxtruong6/ckeditor5
+report_id: 02a510611fce12eddab4428bc93d5e03
+repo_type: Public
+timestamp: '2023-11-14T05:18:16+00:00'
+requested_by: pomek
+provider: github
+branch: master
+detected_tools_count: 61
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 16.13.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Kamil Piechaczek
+  last_updated_on: 2020-11-18 08:27:10.000000000 Z
+- name: css-loader
+  description: Helps webpack to collect CSS from all the css files
+  website_url: https://github.com/webpack-contrib/css-loader
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/8074/default_d2b16fd6997fb2e164de645a34f9b8d5a880d999.png
+  detection_source: package.json
+  last_updated_by: Kamil Piechaczek
+  last_updated_on: 2021-04-21 07:00:51.000000000 Z
+- name: Coveralls
+  description: Track your project's code coverage over time, changes to files, and
+    badge your GitHub repo
+  website_url: https://coveralls.io/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Code Coverage
+  image_url: https://img.stackshare.io/service/680/a43e4a04cb9f778842de43f95db59a14.png
+  detection_source: package.json
+  last_updated_by: Piotrek Koszuliński
+  last_updated_on: 2020-05-22 14:08:19.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source: package.json
+  last_updated_by: fredck
+  last_updated_on: 2014-08-14 09:16:25.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source: ".github/workflows/ckeditor5-integrations.yml"
+  last_updated_by: Kamil Piechaczek
+  last_updated_on: 2020-09-03 12:14:09.000000000 Z
+- name: Stylelint
+  description: A mighty, modern CSS linter
+  website_url: http://stylelint.io/
+  version: 13.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/5446/V9JsvPul_400x400.jpg
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Kamil Piechaczek
+  last_updated_on: 2021-04-21 07:00:51.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source: ".travis.yml"
+  last_updated_by: Kamil Piechaczek
+  last_updated_on: 2021-04-12 10:30:02.000000000 Z
+- name: Webpack
+  description: A bundler for javascript and friends
+  website_url: http://webpack.js.org
+  version: 4.43.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
+  detection_source_url: package.json
+  detection_source: packages/ckeditor5-word-count/webpack.config.js
+  last_updated_by: Kamil Piechaczek
+  last_updated_on: 2021-05-18 06:31:29.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: packages/ckeditor5-utils/package.json
+  last_updated_by: fredck
+  last_updated_on: 2014-08-14 09:16:25.000000000 Z
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 4.17.15
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: packages/ckeditor5-mention/package.json
+  detection_source: packages/ckeditor5-mention/package.json
+  last_updated_by: Kamil Piechaczek
+  last_updated_on: 2020-12-08 09:28:53.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source: Repo Metadata
+- name: chalk
+  description: terminal colors
+  website_url: https://github.com/chalk/chalk
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8072/13122722.png
+  detection_source: package.json
+  last_updated_by: Paweł Smyrek
+  last_updated_on: 2021-01-04 07:43:33.000000000 Z
+- name: husky
+  website_url: https://github.com/typicode/husky
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/9527/5502029.jpeg
+  detection_source: package.json
+  last_updated_by: Kamil Piechaczek
+  last_updated_on: 2020-05-28 13:06:20.000000000 Z
+- name: lint-staged
+  website_url: https://github.com/okonet/lint-staged
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/10577/11071.jpeg
+  detection_source: package.json
+  last_updated_by: Piotrek Koszuliński
+  last_updated_on: 2021-02-01 13:12:00.000000000 Z
+- name: "@ckeditor/ckeditor5-adapter-ckfinder"
+  description: CKFinder adapter for CKEditor 5
+  package_url: https://www.npmjs.com/@ckeditor/ckeditor5-adapter-ckfinder
+  version: 27.1.0
+  license: CNRI-Python-GPL-Compatible
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18318/default_fdde8acc05524c167b15d5d532afe91549bca3c8.png
+  detection_source_url: package.json
+  detection_source: packages/ckeditor5-image/package.json
+  last_updated_by: Kamil Piechaczek
+  last_updated_on: 2021-05-19 06:22:39.000000000 Z
+- name: "@ckeditor/ckeditor5-autoformat"
+  description: Autoformatting feature for CKEditor 5
+  package_url: https://www.npmjs.com/@ckeditor/ckeditor5-autoformat
+  version: 27.1.0
+  license: CNRI-Python-GPL-Compatible
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18133/default_bf10e2b7df14c41acaed1f8701e341199c12ec44.png
+  detection_source_url: package.json
+  detection_source: packages/ckeditor5-core/package.json
+  last_updated_by: Kamil Piechaczek
+  last_updated_on: 2021-05-19 06:22:39.000000000 Z
+- name: "@ckeditor/ckeditor5-basic-styles"
+  description: Basic styles feature for CKEditor 5
+  package_url: https://www.npmjs.com/@ckeditor/ckeditor5-basic-styles
+  version: 27.1.0
+  license: CNRI-Python-GPL-Compatible
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17769/default_097114e8bdb2b7041499609f3732ffc951482cee.png
+  detection_source_url: package.json
+  detection_source: packages/ckeditor5-word-count/package.json
+  last_updated_by: Kamil Piechaczek
+  last_updated_on: 2021-05-19 06:22:39.000000000 Z
+- name: "@ckeditor/ckeditor5-block-quote"
+  description: Block quote feature for CKEditor 5
+  package_url: https://www.npmjs.com/@ckeditor/ckeditor5-block-quote
+  version: 27.1.0
+  license: CNRI-Python-GPL-Compatible
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18016/default_ab659b5159df20d1c32f07b936d63628134f5b3d.png
+  detection_source_url: package.json
+  detection_source: packages/ckeditor5-word-count/package.json
+  last_updated_by: Kamil Piechaczek
+  last_updated_on: 2021-05-19 06:22:39.000000000 Z
+- name: "@ckeditor/ckeditor5-ckfinder"
+  description: CKFinder integration for CKEditor 5
+  package_url: https://www.npmjs.com/@ckeditor/ckeditor5-ckfinder
+  version: 27.1.0
+  license: CNRI-Python-GPL-Compatible
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18720/default_b9553b457101ba00be07a2b4eb4764dc3ab6723e.png
+  detection_source_url: package.json
+  detection_source: packages/ckeditor5-theme-lark/package.json
+  last_updated_by: Kamil Piechaczek
+  last_updated_on: 2021-05-19 06:22:39.000000000 Z
+- name: "@ckeditor/ckeditor5-core"
+  description: The core architecture of CKEditor 5 – the best browser-based rich text
+    editor
+  package_url: https://www.npmjs.com/@ckeditor/ckeditor5-core
+  version: 27.1.0
+  license: CNRI-Python-GPL-Compatible
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17854/default_78858facb60c08d15198eb69a6c7f48463f2c09f.png
+  detection_source_url: package.json
+  detection_source: packages/ckeditor5-word-count/package.json
+  last_updated_by: Kamil Piechaczek
+  last_updated_on: 2021-05-19 06:22:39.000000000 Z
+- name: "@ckeditor/ckeditor5-dev-utils"
+  description: Utils for CKEditor 5 development tools packages
+  package_url: https://www.npmjs.com/@ckeditor/ckeditor5-dev-utils
+  version: 25.0.0
+  license: CNRI-Python-GPL-Compatible
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17760/default_b527ab15473225ca7c2e9b197c9726e92ac97de8.png
+  detection_source_url: package.json
+  detection_source: packages/ckeditor5-word-count/package.json
+  last_updated_by: Kamil Piechaczek
+  last_updated_on: 2021-05-19 06:22:39.000000000 Z
+- name: "@ckeditor/ckeditor5-dev-webpack-plugin"
+  description: CKEditor 5 plugin for webpack
+  package_url: https://www.npmjs.com/@ckeditor/ckeditor5-dev-webpack-plugin
+  version: 25.0.0
+  license: CNRI-Python-GPL-Compatible
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17869/default_3bc64391130859f94a137a7dc6cb87cd54da546b.png
+  detection_source_url: package.json
+  detection_source: packages/ckeditor5-build-inline/package.json
+  last_updated_by: Kamil Piechaczek
+  last_updated_on: 2021-05-19 06:22:39.000000000 Z
+- name: "@ckeditor/ckeditor5-easy-image"
+  description: Easy Image feature for CKEditor 5
+  package_url: https://www.npmjs.com/@ckeditor/ckeditor5-easy-image
+  version: 27.1.0
+  license: CNRI-Python-GPL-Compatible
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18221/default_b3a33eac81265f816fe4761f2b8308e8b7d927ec.png
+  detection_source_url: package.json
+  detection_source: packages/ckeditor5-special-characters/package.json
+  last_updated_by: Kamil Piechaczek
+  last_updated_on: 2021-05-19 06:22:39.000000000 Z
+- name: "@ckeditor/ckeditor5-editor-classic"
+  description: Classic editor implementation for CKEditor 5
+  package_url: https://www.npmjs.com/@ckeditor/ckeditor5-editor-classic
+  version: 27.1.0
+  license: CNRI-Python-GPL-Compatible
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18010/default_ab659b5159df20d1c32f07b936d63628134f5b3d.png
+  detection_source_url: package.json
+  detection_source: packages/ckeditor5-word-count/package.json
+  last_updated_by: Kamil Piechaczek
+  last_updated_on: 2021-05-19 06:22:39.000000000 Z
+- name: "@ckeditor/ckeditor5-essentials"
+  description: Essential editing features for CKEditor 5
+  package_url: https://www.npmjs.com/@ckeditor/ckeditor5-essentials
+  version: 27.1.0
+  license: CNRI-Python-GPL-Compatible
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17893/default_3bc64391130859f94a137a7dc6cb87cd54da546b.png
+  detection_source_url: package.json
+  detection_source: packages/ckeditor5-widget/package.json
+  last_updated_by: Kamil Piechaczek
+  last_updated_on: 2021-05-19 06:22:39.000000000 Z
+- name: "@ckeditor/ckeditor5-heading"
+  description: Headings feature for CKEditor 5
+  package_url: https://www.npmjs.com/@ckeditor/ckeditor5-heading
+  version: 27.1.0
+  license: CNRI-Python-GPL-Compatible
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17833/default_a53af9d6b5a4c8c6e8d5f8494d76a8d2efd3e660.png
+  detection_source_url: package.json
+  detection_source: packages/ckeditor5-widget/package.json
+  last_updated_by: Kamil Piechaczek
+  last_updated_on: 2021-05-19 06:22:39.000000000 Z
+- name: "@ckeditor/ckeditor5-image"
+  description: Image feature for CKEditor 5
+  package_url: https://www.npmjs.com/@ckeditor/ckeditor5-image
+  version: 27.1.0
+  license: CNRI-Python-GPL-Compatible
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18054/image.png
+  detection_source_url: package.json
+  detection_source: packages/ckeditor5-word-count/package.json
+  last_updated_by: Kamil Piechaczek
+  last_updated_on: 2021-05-19 06:22:39.000000000 Z
+- name: "@ckeditor/ckeditor5-link"
+  description: Link feature for CKEditor 5
+  package_url: https://www.npmjs.com/@ckeditor/ckeditor5-link
+  version: 27.1.0
+  license: CNRI-Python-GPL-Compatible
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17980/default_72dbba22ca96f25f78f55f8ea5393222efca5494.png
+  detection_source_url: package.json
+  detection_source: packages/ckeditor5-word-count/package.json
+  last_updated_by: Kamil Piechaczek
+  last_updated_on: 2021-05-19 06:22:39.000000000 Z
+- name: "@ckeditor/ckeditor5-list"
+  description: Ordered and unordered lists feature to CKEditor 5
+  package_url: https://www.npmjs.com/@ckeditor/ckeditor5-list
+  version: 27.1.0
+  license: CNRI-Python-GPL-Compatible
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17932/default_e0b07170ab7d7ea66954ff35fdeaae5255c4c0aa.png
+  detection_source_url: package.json
+  detection_source: packages/ckeditor5-word-count/package.json
+  last_updated_by: Kamil Piechaczek
+  last_updated_on: 2021-05-19 06:22:39.000000000 Z
+- name: "@ckeditor/ckeditor5-media-embed"
+  description: Media Embed feature for CKEditor 5
+  package_url: https://www.npmjs.com/@ckeditor/ckeditor5-media-embed
+  version: 27.1.0
+  license: CNRI-Python-GPL-Compatible
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18463/default_5ff724c0ff89bb42698aa80ef3403008cb0d8f72.png
+  detection_source_url: package.json
+  detection_source: packages/ckeditor5-widget/package.json
+  last_updated_by: Kamil Piechaczek
+  last_updated_on: 2021-05-19 06:22:39.000000000 Z
+- name: "@ckeditor/ckeditor5-paragraph"
+  description: Paragraph feature for CKEditor 5
+  package_url: https://www.npmjs.com/@ckeditor/ckeditor5-paragraph
+  version: 27.1.0
+  license: CNRI-Python-GPL-Compatible
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17711/default_7ff152b9bcf219fad0d56c78a016d5bad6a2a526.png
+  detection_source_url: package.json
+  detection_source: packages/ckeditor5-word-count/package.json
+  last_updated_by: Kamil Piechaczek
+  last_updated_on: 2021-05-19 06:22:39.000000000 Z
+- name: "@ckeditor/ckeditor5-paste-from-office"
+  description: Paste from Office feature for CKEditor 5
+  package_url: https://www.npmjs.com/@ckeditor/ckeditor5-paste-from-office
+  version: 27.1.0
+  license: CNRI-Python-GPL-Compatible
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18518/default_4ab681e38c50826e4ec993cd0190baa65b5e5d17.png
+  detection_source_url: package.json
+  detection_source: packages/ckeditor5-clipboard/package.json
+  last_updated_by: Kamil Piechaczek
+  last_updated_on: 2021-05-19 06:22:39.000000000 Z
+- name: "@ckeditor/ckeditor5-table"
+  description: Table feature for CKEditor 5
+  package_url: https://www.npmjs.com/@ckeditor/ckeditor5-table
+  version: 27.1.0
+  license: CNRI-Python-GPL-Compatible
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18309/default_1f6976e9c55f1fefdc2440584c0f9b0371e4a673.png
+  detection_source_url: package.json
+  detection_source: packages/ckeditor5-word-count/package.json
+  last_updated_by: Kamil Piechaczek
+  last_updated_on: 2021-05-19 06:22:39.000000000 Z
+- name: "@ckeditor/ckeditor5-theme-lark"
+  description: A bright theme for CKEditor 5
+  package_url: https://www.npmjs.com/@ckeditor/ckeditor5-theme-lark
+  version: 27.1.0
+  license: CNRI-Python-GPL-Compatible
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17941/default_ddcb3fb8ca8ccaba871e88d87465cd31ce73df71.png
+  detection_source_url: package.json
+  detection_source: packages/ckeditor5-word-count/package.json
+  last_updated_by: Kamil Piechaczek
+  last_updated_on: 2021-05-19 06:22:39.000000000 Z
+- name: babel-standalone
+  description: Standalone build of Babel for use in non-Node.js environments
+  package_url: https://www.npmjs.com/babel-standalone
+  version: 6.26.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18116/image.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Kamil Piechaczek
+  last_updated_on: 2020-05-28 13:06:20.000000000 Z
+- name: cli-table
+  description: Pretty unicode tables for the CLI
+  package_url: https://www.npmjs.com/cli-table
+  version: 0.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16477/default_2e7c1d6d94467a56325f7c984571015e8713a450.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Kamil Piechaczek
+  last_updated_on: 2021-04-21 07:00:51.000000000 Z
+- name: eslint-config-ckeditor5
+  description: CKEditor 5 ESLint preset
+  package_url: https://www.npmjs.com/eslint-config-ckeditor5
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17870/default_99a4718ac3f2beccb28962b727b0a38010c9b496.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Kamil Piechaczek
+  last_updated_on: 2021-05-19 06:22:39.000000000 Z
+- name: glob
+  description: A little globber
+  package_url: https://www.npmjs.com/glob
+  version: 7.1.6
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15875/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Kamil Piechaczek
+  last_updated_on: 2020-05-28 13:06:20.000000000 Z
+- name: http-server
+  description: A simple zero-configuration command-line http server
+  package_url: https://www.npmjs.com/http-server
+  version: 0.12.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16118/default_f905d9556a0330de59b502a579c1f5c4be2b48bf.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Kamil Piechaczek
+  last_updated_on: 2021-04-21 07:00:51.000000000 Z
+- name: js-beautify
+  description: Beautifier.io for node
+  package_url: https://www.npmjs.com/js-beautify
+  version: 1.11.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16340/default_17385ab3aa01d4c295c08d4a9736140df691c5e9.png
+  detection_source_url: packages/ckeditor5-utils/package.json
+  detection_source: packages/ckeditor5-utils/package.json
+  last_updated_by: Kamil Piechaczek
+  last_updated_on: 2020-05-28 13:06:20.000000000 Z
+- name: lodash-es
+  description: Lodash exported as ES modules
+  package_url: https://www.npmjs.com/lodash-es
+  version: 4.17.15
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16587/default_ebd83b4f0415be108d977ea72558b13fd7c5283d.png
+  detection_source_url: packages/ckeditor5-autosave/package.json
+  detection_source: packages/ckeditor5-word-count/package.json
+  last_updated_by: Kamil Piechaczek
+  last_updated_on: 2020-05-28 13:06:20.000000000 Z
+  vulnerabilities:
+  - name: Prototype Pollution in lodash
+    cve_id: CVE-2020-8203
+    cve_url: https://github.com/advisories/GHSA-p6mc-m468-83gw
+    detected_date: Mar 12
+    severity: high
+    first_patched: 4.17.20
+  - name: Command Injection in lodash
+    cve_id: CVE-2021-23337
+    cve_url: https://github.com/advisories/GHSA-35jh-r3h4-6jhm
+    detected_date: Mar 12
+    severity: high
+    first_patched: 4.17.21
+  - name: Regular Expression Denial of Service (ReDoS) in lodash
+    cve_id: CVE-2020-28500
+    cve_url: https://github.com/advisories/GHSA-29mw-wpgm-hmr9
+    detected_date: Mar 12
+    severity: moderate
+    first_patched: 4.17.21
+- name: marked
+  description: A markdown parser built for speed
+  package_url: https://www.npmjs.com/marked
+  version: 1.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16065/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source_url: packages/ckeditor5-markdown-gfm/package.json
+  detection_source: packages/ckeditor5-markdown-gfm/package.json
+  last_updated_by: Maciej Gołaszewski
+  last_updated_on: 2020-10-22 06:13:39.000000000 Z
+  vulnerabilities:
+  - name: Inefficient Regular Expression Complexity in marked
+    cve_id: CVE-2022-21680
+    cve_url: https://github.com/advisories/GHSA-rrrm-qjm4-v8hf
+    detected_date: Jan 15
+    severity: high
+    first_patched: 4.0.10
+  - name: Inefficient Regular Expression Complexity in marked
+    cve_id: CVE-2022-21681
+    cve_url: https://github.com/advisories/GHSA-5v2h-r2cx-5xgj
+    detected_date: Jan 15
+    severity: high
+    first_patched: 4.0.10
+  - name: Regular Expression Denial of Service (REDoS) in Marked
+    cve_id: CVE-2021-21306
+    cve_url: https://github.com/advisories/GHSA-4r62-v4vq-hr96
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 2.0.0
+- name: mini-css-extract-plugin
+  description: Extracts CSS into separate files
+  package_url: https://www.npmjs.com/mini-css-extract-plugin
+  version: 0.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15992/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Kamil Piechaczek
+  last_updated_on: 2021-05-18 06:31:29.000000000 Z
+- name: minimatch
+  description: A glob matcher in javascript
+  package_url: https://www.npmjs.com/minimatch
+  version: 3.0.4
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16195/default_180418c6fa6cdb8f7a3500f84a8fedb884fcb3fa.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Kamil Piechaczek
+  last_updated_on: 2021-04-21 07:00:51.000000000 Z
+  vulnerabilities:
+  - name: minimatch ReDoS vulnerability
+    cve_id: CVE-2022-3517
+    cve_url: https://github.com/advisories/GHSA-f8q6-p94x-37v3
+    detected_date: Oct 21
+    severity: high
+    first_patched: 3.0.5
+- name: minimist
+  description: Parse argument options
+  package_url: https://www.npmjs.com/minimist
+  version: 1.2.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15918/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Paweł Smyrek
+  last_updated_on: 2021-01-04 07:43:33.000000000 Z
+  vulnerabilities:
+  - name: Prototype Pollution in minimist
+    cve_id: CVE-2021-44906
+    cve_url: https://github.com/advisories/GHSA-xvch-5gv4-984h
+    detected_date: Mar 22
+    severity: critical
+    first_patched: 1.2.6
+- name: mkdirp
+  description: Recursively mkdir, like `mkdir -p`
+  package_url: https://www.npmjs.com/mkdirp
+  version: 1.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15881/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Kamil Piechaczek
+  last_updated_on: 2020-07-13 08:14:03.000000000 Z
+- name: nyc
+  description: The Istanbul command line interface
+  package_url: https://www.npmjs.com/nyc
+  version: 15.0.1
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15837/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: fredck
+  last_updated_on: 2014-08-14 09:16:25.000000000 Z
+- name: postcss-loader
+  description: PostCSS loader for webpack
+  package_url: https://www.npmjs.com/postcss-loader
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15876/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: package.json
+  detection_source: packages/ckeditor5-build-inline/package.json
+  last_updated_by: Kamil Piechaczek
+  last_updated_on: 2021-04-21 07:00:51.000000000 Z
+- name: progress-bar-webpack-plugin
+  description: A progress bar for Webpack
+  package_url: https://www.npmjs.com/progress-bar-webpack-plugin
+  version: 2.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16734/default_6dc099b12d47e378ae121fb53c336fe5d8f0ffc8.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Kamil Piechaczek
+  last_updated_on: 2021-05-18 06:31:29.000000000 Z
+- name: raw-loader
+  description: A loader for webpack that allows importing files as a String
+  package_url: https://www.npmjs.com/raw-loader
+  version: 4.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16030/default_7a465bc85b23fd837cbc038fd1d504632c41a884.png
+  detection_source_url: package.json
+  detection_source: packages/ckeditor5-build-inline/package.json
+  last_updated_by: Kamil Piechaczek
+  last_updated_on: 2021-04-21 07:00:51.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 16.13.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Kamil Piechaczek
+  last_updated_on: 2020-11-18 08:27:10.000000000 Z
+- name: sanitize-html
+  description: Clean up user-submitted HTML
+  package_url: https://www.npmjs.com/sanitize-html
+  version: 2.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17508/default_1d2902e8f9c84259702671591379572493b9009b.png
+  detection_source_url: packages/ckeditor5-html-embed/package.json
+  detection_source: packages/ckeditor5-html-embed/package.json
+  last_updated_by: Kamil Piechaczek
+  last_updated_on: 2020-12-08 10:23:18.000000000 Z
+  vulnerabilities:
+  - name: Improper Input Validation in sanitize-html
+    cve_id: CVE-2021-26540
+    cve_url: https://github.com/advisories/GHSA-mjxr-4v3x-q3m4
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 2.3.2
+  - name: Improper Input Validation in sanitize-html
+    cve_id: CVE-2021-26539
+    cve_url: https://github.com/advisories/GHSA-rjqq-98f6-6j3r
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 2.3.1
+- name: style-loader
+  description: Style loader module for webpack
+  package_url: https://www.npmjs.com/style-loader
+  version: 1.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15822/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: package.json
+  detection_source: packages/ckeditor5-build-inline/package.json
+  last_updated_by: Kamil Piechaczek
+  last_updated_on: 2021-04-21 07:00:51.000000000 Z
+- name: svgo
+  description: Nodejs-based tool for optimizing SVG vector graphics files
+  package_url: https://www.npmjs.com/svgo
+  version: 2.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16716/default_e3c0987b80983280e46e6e1723fcfcff50fa4824.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Aleksander Nowodzinski
+  last_updated_on: 2021-03-09 16:59:03.000000000 Z
+- name: terser-webpack-plugin
+  description: Terser plugin for webpack
+  package_url: https://www.npmjs.com/terser-webpack-plugin
+  version: 3.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16143/default_def3edb85d7fbd20200a5cd7d0a1679e31bc8b3d.png
+  detection_source_url: package.json
+  detection_source: packages/ckeditor5-build-inline/package.json
+  last_updated_by: Kamil Piechaczek
+  last_updated_on: 2021-05-18 06:31:29.000000000 Z
+- name: upath
+  description: A proxy to `path`
+  package_url: https://www.npmjs.com/upath
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18193/default_63c787c86dc2f82d999c8bfdd3f0cd4aa18c2145.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Kamil Piechaczek
+  last_updated_on: 2020-11-16 12:11:41.000000000 Z
+- name: wait-on
+  description: Wait-on is a cross platform command line utility and Node.js API which
+    will wait for files
+  package_url: https://www.npmjs.com/wait-on
+  version: 5.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17821/default_a53af9d6b5a4c8c6e8d5f8494d76a8d2efd3e660.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Kamil Piechaczek
+  last_updated_on: 2021-03-11 15:55:37.000000000 Z
+- name: webpack-cli
+  description: CLI for webpack &amp; friends
+  package_url: https://www.npmjs.com/webpack-cli
+  version: 3.3.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15826/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: packages/ckeditor5-adapter-ckfinder/package.json
+  detection_source: packages/ckeditor5-word-count/package.json
+  last_updated_by: Kamil Piechaczek
+  last_updated_on: 2021-04-21 07:00:51.000000000 Z

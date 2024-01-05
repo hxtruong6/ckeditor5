@@ -1,7 +1,8 @@
 <!--
---- Readme.md Snippet without images Start ---
+&lt;--- Readme.md Snippet without images Start ---&gt;
 ## Tech Stack
 hxtruong6/ckeditor5 is built on the following main stack:
+
 - [Coveralls](https://coveralls.io/) – Code Coverage
 - [React](https://reactjs.org/) – Javascript UI Libraries
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
@@ -15,11 +16,13 @@ hxtruong6/ckeditor5 is built on the following main stack:
 - [Travis CI](http://travis-ci.com/) – Continuous Integration
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet without images End ---
 
---- Readme.md Snippet with images Start ---
+&lt;--- Readme.md Snippet without images End ---&gt;
+
+&lt;--- Readme.md Snippet with images Start ---&gt;
 ## Tech Stack
 hxtruong6/ckeditor5 is built on the following main stack:
+
 - <img width='25' height='25' src='https://img.stackshare.io/service/680/a43e4a04cb9f778842de43f95db59a14.png' alt='Coveralls'/> [Coveralls](https://coveralls.io/) – Code Coverage
 - <img width='25' height='25' src='https://img.stackshare.io/service/1020/OYIaJ1KK.png' alt='React'/> [React](https://reactjs.org/) – Javascript UI Libraries
 - <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
@@ -33,14 +36,15 @@ hxtruong6/ckeditor5 is built on the following main stack:
 - <img width='25' height='25' src='https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png' alt='Travis CI'/> [Travis CI](http://travis-ci.com/) – Continuous Integration
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet with images End ---
+
+&lt;--- Readme.md Snippet with images End ---&gt;
 -->
 <div align="center">
 
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [hxtruong6/ckeditor5](https://github.com/hxtruong6/ckeditor5)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|61<br/>Tools used|11/14/23 <br/>Report generated|
+|64<br/>Tools used|01/05/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -201,9 +205,9 @@ Full tech stack [here](/techstack.md)
 </table>
 
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (44)</h2>
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (47)</h2>
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (44)
+## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (47)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
@@ -228,13 +232,16 @@ Full tech stack [here](/techstack.md)
 |[@ckeditor/ckeditor5-table](https://www.npmjs.com/@ckeditor/ckeditor5-table)|v27.1.0|05/19/21|Kamil Piechaczek |CNRI-Python-GPL-Compatible|N/A|
 |[@ckeditor/ckeditor5-theme-lark](https://www.npmjs.com/@ckeditor/ckeditor5-theme-lark)|v27.1.0|05/19/21|Kamil Piechaczek |CNRI-Python-GPL-Compatible|N/A|
 |[babel-standalone](https://www.npmjs.com/babel-standalone)|v6.26.0|05/28/20|Kamil Piechaczek |MIT|N/A|
+|[chalk](https://www.npmjs.com/chalk)|v4.1.0|01/04/21|Paweł Smyrek |MIT|N/A|
 |[cli-table](https://www.npmjs.com/cli-table)|v0.3.1|04/21/21|Kamil Piechaczek |MIT|N/A|
 |[eslint-config-ckeditor5](https://www.npmjs.com/eslint-config-ckeditor5)|v3.0.0|05/19/21|Kamil Piechaczek |MIT|N/A|
 |[glob](https://www.npmjs.com/glob)|v7.1.6|05/28/20|Kamil Piechaczek |ISC|N/A|
 |[http-server](https://www.npmjs.com/http-server)|v0.12.3|04/21/21|Kamil Piechaczek |MIT|N/A|
+|[husky](https://www.npmjs.com/husky)|v4.2.5|05/28/20|Kamil Piechaczek |MIT|N/A|
 |[js-beautify](https://www.npmjs.com/js-beautify)|v1.11.0|05/28/20|Kamil Piechaczek |MIT|N/A|
+|[lint-staged](https://www.npmjs.com/lint-staged)|v10.2.6|02/01/21|Piotrek Koszuliński |MIT|N/A|
 |[lodash-es](https://www.npmjs.com/lodash-es)|v4.17.15|05/28/20|Kamil Piechaczek |MIT|[CVE-2020-8203](https://github.com/advisories/GHSA-p6mc-m468-83gw) (High)<br/>[CVE-2021-23337](https://github.com/advisories/GHSA-35jh-r3h4-6jhm) (High)<br/>[CVE-2020-28500](https://github.com/advisories/GHSA-29mw-wpgm-hmr9) (Moderate)|
-|[marked](https://www.npmjs.com/marked)|v1.1.1|10/22/20|Maciej Gołaszewski |MIT|[CVE-2022-21680](https://github.com/advisories/GHSA-rrrm-qjm4-v8hf) (High)<br/>[CVE-2022-21681](https://github.com/advisories/GHSA-5v2h-r2cx-5xgj) (High)<br/>[CVE-2021-21306](https://github.com/advisories/GHSA-4r62-v4vq-hr96) (Moderate)|
+|[marked](https://www.npmjs.com/marked)|v1.1.1|10/22/20|Maciej Gołaszewski |MIT|[CVE-2022-21681](https://github.com/advisories/GHSA-5v2h-r2cx-5xgj) (High)<br/>[CVE-2022-21680](https://github.com/advisories/GHSA-rrrm-qjm4-v8hf) (High)<br/>[CVE-2021-21306](https://github.com/advisories/GHSA-4r62-v4vq-hr96) (Moderate)|
 |[mini-css-extract-plugin](https://www.npmjs.com/mini-css-extract-plugin)|v0.9.0|05/18/21|Kamil Piechaczek |MIT|N/A|
 |[minimatch](https://www.npmjs.com/minimatch)|v3.0.4|04/21/21|Kamil Piechaczek |ISC|[CVE-2022-3517](https://github.com/advisories/GHSA-f8q6-p94x-37v3) (High)|
 |[minimist](https://www.npmjs.com/minimist)|v1.2.5|01/04/21|Paweł Smyrek |MIT|[CVE-2021-44906](https://github.com/advisories/GHSA-xvch-5gv4-984h) (Critical)|
@@ -255,4 +262,4 @@ Full tech stack [here](/techstack.md)
 <br/>
 <div align='center'>
 
-Generated via [Stack File](https://github.com/apps/stack-file)
+Generated via [Stack File](https://github.com/marketplace/stack-file)
